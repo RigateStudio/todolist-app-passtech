@@ -1,0 +1,132 @@
+  @import "variables/personal_variables";
+@import "variables/bootstrap_variables";
+
+@import "bootstrap";
+@import "font-awesome";
+@import "components/*";
+
+#buton_de_oro {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.fas {
+    margin-right: 7px;
+}
+
+table { 
+    background-color: #FDFCFF;
+}
+
+.email_body {
+    width: 800px;
+    margin-top: 30px;
+}
+
+button {
+    -webkit-appearance: none;
+    background: -webkit-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+    background: linear-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+    background-size: 500%;
+    border: none;
+    border-radius: 3rem;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font: 1.5em Raleway, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 4rem;
+    letter-spacing: 0.1em;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 17rem;
+  }
+
+  buttonun {
+    -webkit-appearance: none;
+    background: -webkit-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+    background-size: 500%;
+    border: none;
+    border-radius: 3rem;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font: 1.5em Raleway, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 4rem;
+    letter-spacing: 0.1em;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 10rem;
+  }
+
+  buttondeux {
+    -webkit-appearance: none;
+    background: -webkit-gradient(to right, #a3a2cc 0%, #ffffff 50%, #ee786e 100%);
+    background-size: 500%;
+    border: none;
+    border-radius: 3rem;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font: 1.5em Raleway, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 4rem;
+    letter-spacing: 0.1em;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 17rem;
+  }
+
+
+
+  #table_row_2 {
+      width: 700px;
+  }
+
+  .boutons_container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .email_viewer {
+    padding: 50px;
+  }
+  
+  button:hover {
+    animation-name: gradient;
+    -webkit-animation-name: gradient;
+    animation-duration: 2s;
+    -webkit-animation-duration: s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }

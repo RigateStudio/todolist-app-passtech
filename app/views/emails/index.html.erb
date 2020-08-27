@@ -1,0 +1,32 @@
+<div class="container"> 
+    <h1>Boite de réception</h1>
+    <p>Voici vos derniers messages</p>
+
+    <button type="button" id="buton_de_oro" class="btn btn-warning"> <i class="fas fa-envelope" style="color:#FFFFFF;"> </i> 
+    <%= link_to "Recevoir un email", emails_path, method: "post", remote: true %> 
+    </button>
+
+    <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">Liste des emails</th>
+                <th scope="col">Email sélectionné </th>
+                </tr>
+            </thead>    
+        
+        <tbody id="test">
+            <tr id="test">
+                <td></td>
+                <td rowspan= <%=@emails.length+1%> id="table_row_2">  </td>
+            </tr>
+            <% @emails.each do |i|%>
+                    <tr>
+                    <th scope="row"> <class="fas fa-envelope" style="color:#0088ff;"> <%= link_to i.object, email_path(i.id), remote: true %> </th>
+                    </tr>
+            <%end%>
+        </tbody>
+        
+    </table>
+</div>    
+
+

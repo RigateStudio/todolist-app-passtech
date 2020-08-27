@@ -1,0 +1,4 @@
+alert("Ding dong! Il y a du monde dans votre boite mail!");
+
+document.getElementById("table_row_2").innerHTML = ""
+document.getElementById("test").insertAdjacentHTML("beforeend","<%= j render "email", email: @email %>")

@@ -1,0 +1,15 @@
+<div class="email_viewer">
+    <h2> <%= @email.object %> </h2>
+    </br>
+    <p> <%= @email.body %> </p>
+    <div class="buttons_container">
+        <button type="buttonun" class="btn" style="color:#0088ff;"> </i> 
+        <%= link_to "Supprimer", @email, method: "delete", remote: true %> 
+        </button>
+        <button type="buttondeux" class="btn" style="color:#0088ff;"> Marquer comme non-lu </i> 
+        <%= link_to "", emails_path, method: "post", remote: true %> 
+        </button>
+    </div>
+</div>
+
+
